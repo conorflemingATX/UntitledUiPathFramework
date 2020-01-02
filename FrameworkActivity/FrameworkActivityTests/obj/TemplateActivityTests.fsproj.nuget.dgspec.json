@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivityTests\\TemplateActivityTests.fsproj": {}
+  },
+  "projects": {
+    "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivityTests\\TemplateActivityTests.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivityTests\\TemplateActivityTests.fsproj",
+        "projectName": "TemplateActivityTests",
+        "projectPath": "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivityTests\\TemplateActivityTests.fsproj",
+        "packagesPath": "C:\\Users\\cfleming\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivityTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cfleming\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivity\\TemplateActivity.fsproj": {
+                "projectPath": "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivity\\TemplateActivity.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "FsUnit": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivity\\TemplateActivity.fsproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivity\\TemplateActivity.fsproj",
+        "projectName": "TemplateActivities",
+        "projectPath": "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivity\\TemplateActivity.fsproj",
+        "packagesPath": "C:\\Users\\cfleming\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\cfleming\\Documents\\UiPath\\UntitledFramework\\UiPathCustomActivityTemplateFsharp\\TemplateActivity\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\cfleming\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461",
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          },
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        },
+        "net461": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
