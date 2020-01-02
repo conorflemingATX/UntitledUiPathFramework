@@ -19,7 +19,6 @@ C:\Users\cfleming\Documents\UiPath\UntitledFramework\FrameworkActivity\Framework
 C:\Users\cfleming\Documents\UiPath\UntitledFramework\FrameworkActivity\FrameworkActivity\bin\Debug\net461\System.ComponentModel.Composition.dll
 C:\Users\cfleming\Documents\UiPath\UntitledFramework\FrameworkActivity\FrameworkActivity\bin\Debug\net461\System.Activities.xml
 C:\Users\cfleming\Documents\UiPath\UntitledFramework\FrameworkActivity\FrameworkActivity\bin\Debug\net461\System.ComponentModel.Composition.xml
-C:\Users\cfleming\Documents\UiPath\UntitledFramework\FrameworkActivity\FrameworkActivity\obj\Debug\net461\FrameworkActivity.fsprojAssemblyReference.cache
 C:\Users\cfleming\Documents\UiPath\UntitledFramework\FrameworkActivity\FrameworkActivity\obj\Debug\net461\FrameworkActivity.AssemblyInfoInputs.cache
 C:\Users\cfleming\Documents\UiPath\UntitledFramework\FrameworkActivity\FrameworkActivity\obj\Debug\net461\FrameworkActivity.AssemblyInfo.fs
 C:\Users\cfleming\Documents\UiPath\UntitledFramework\FrameworkActivity\FrameworkActivity\obj\Debug\net461\FrameworkActivity.fsproj.CopyComplete

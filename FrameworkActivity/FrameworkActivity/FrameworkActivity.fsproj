@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="ApplicationTypes.fs" />
     <Compile Include="Lib.fs" />
     <Compile Include="FrameworkActivity.fs" />
   </ItemGroup>
