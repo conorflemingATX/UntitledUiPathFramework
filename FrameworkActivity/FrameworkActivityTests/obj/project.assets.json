@@ -1292,7 +1292,7 @@
       },
       "FrameworkActivities/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FSharp.Core": "4.7.0"
         },
