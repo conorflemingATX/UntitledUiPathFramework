@@ -9,9 +9,9 @@ open System.Reflection
 
 [<assembly: System.Reflection.AssemblyCompanyAttribute("Conor Fleming")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
-[<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")>]
+[<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.0")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.02")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("FrameworkActivity")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("FrameworkActivity")>]
-[<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
+[<assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.0")>]
 do()

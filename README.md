@@ -19,3 +19,7 @@ Messages act as instuctions to the F# program to update the state in some way, a
 Commands represent instructions to the UiPath process to perform some side effect, they can be labelled so that they can be switched upon and following this the relevant modular workflow can be called and then the appropriate message returned based on the success or failure of the operation.
 
 There are going to be some difficulties that I have to figure out around how to model DTOs across the UiPath / F# boundary, native .net objects would probably be best, and as close to the F# domain model as possible, but I'm still not 100% confident about F# to VB.NET/C# interop yet, I'm still figuring that out.
+
+## Assorted Notes
+
+- I am going to be using an exel type provider for reading the config; one issue there is that although most of the time configs in UiPath are written similarly to the one found for the ReFramework where there is an excel table with three column names: Name, Value, and description; from which a regular Dictionary of type \<String, Object\> is formed. So if I am already changing the format to that of a table with every field having its own column, is there any point in keeping it in excel?

@@ -7,12 +7,13 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "FrameworkActivity/1.0.0": {
+      "FrameworkActivity/1.0.02": {
         "dependencies": {
           "FSharp.Core": "4.7.0",
           "Microsoft.NETFramework.ReferenceAssemblies": "1.0.0",
           "NETStandard.Library": "2.0.3",
-          "System.Activities": "4.0.0.0"
+          "System.Activities": "4.0.0.0",
+          "System.ComponentModel.Composition": "4.0.0.0"
         },
         "runtime": {
           "FrameworkActivity.dll": {}
@@ -78,7 +79,15 @@
         "runtime": {
           "System.Activities.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
+          }
+        }
+      },
+      "System.ComponentModel.Composition/4.0.0.0": {
+        "runtime": {
+          "System.ComponentModel.Composition.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -86,7 +95,7 @@
         "runtime": {
           "System.Xaml.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -94,7 +103,7 @@
         "runtime": {
           "System.Runtime.DurableInstancing.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -102,7 +111,7 @@
         "runtime": {
           "Microsoft.VisualBasic.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "14.6.1055.0"
+            "fileVersion": "14.7.3062.0"
           }
         }
       },
@@ -110,7 +119,7 @@
         "runtime": {
           "System.Windows.Forms.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -118,7 +127,7 @@
         "runtime": {
           "System.Deployment.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -126,7 +135,7 @@
         "runtime": {
           "System.Management.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -134,7 +143,7 @@
         "runtime": {
           "System.Runtime.Remoting.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -142,7 +151,7 @@
         "runtime": {
           "System.Security.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -150,7 +159,7 @@
         "runtime": {
           "System.Configuration.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -158,7 +167,7 @@
         "runtime": {
           "Accessibility.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -166,7 +175,7 @@
         "runtime": {
           "System.Runtime.Serialization.Formatters.Soap.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -174,7 +183,7 @@
         "runtime": {
           "System.Configuration.Install.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       },
@@ -182,7 +191,7 @@
         "runtime": {
           "Microsoft.JScript.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "14.6.1055.0"
+            "fileVersion": "14.7.3062.0"
           }
         }
       },
@@ -190,14 +199,14 @@
         "runtime": {
           "System.DirectoryServices.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.1055.0"
+            "fileVersion": "4.7.3062.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "FrameworkActivity/1.0.0": {
+    "FrameworkActivity/1.0.02": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -231,6 +240,11 @@
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "System.Activities/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.ComponentModel.Composition/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
