@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\cfleming\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\cfleming\\.nuget\\packages"
-    ]
-  }
-}
